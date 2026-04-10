@@ -6,7 +6,9 @@ export const HEERBY_URL =
   'https://heerby.ma/en/restaurant/3Hw4am7hQsY'
 
 /** Local hero image in `public/hero-bg.jpg` (~2400px). Replace file anytime; overlay in `App.css`. */
-export const heroBackground = '/hero-bg.jpg'
+// export const heroBackground = '/hero-bg.jpg'
+import heroBg from '../assets/hero-bg.jpg'
+export const heroBackground = heroBg
 
 export const venuePhotos = [
   `${PLACE_PHOTO_BASE}/0_small.jpeg`,
